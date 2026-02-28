@@ -51,8 +51,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: black 5px 4px;
+    box-shadow: black 1px 3px 1px 4px;
     border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .logo {
