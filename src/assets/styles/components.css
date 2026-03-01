@@ -1,0 +1,121 @@
+.btn {
+    display: inline-block;
+    background: white;
+    color: var(--primary);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.platforms {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.platform {
+    background: var(--light);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.platform:hover {
+    border-color: var(--primary);
+    box-shadow: 0 8px 16px rgba(99, 102, 241, 0.2);
+}
+
+.platform-logo {
+    width: 90px;
+    height: 90px;
+    background: white;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 auto 1rem;
+}
+
+.platform-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.link {
+    color: var(--primary);
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.steps {
+    max-width: 800px;
+    margin: 2rem auto 0;
+}
+
+.step {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem;
+    align-items: start;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s;
+}
+
+.step:hover {
+    transform: translateX(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--primary), #8b5cf6);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    flex-shrink: 0;
+}
